@@ -1,6 +1,16 @@
 Asset Management API: This project provides an API for managing and tracking asset balances based on trade transactions stored in a database.
-It allows users to upload trade data through a CSV file and retrieve their asset balances at any given timestamp.
 
+Task1 - It allows users to upload trade data to database through a CSV file.
+
+Task1 Live api -  https://trade-balance-api.onrender.com/api/upload-csv
+
+
+Task2 - it retrieve their asset balances at any given timestamp
+
+Task2 Live api -  https://trade-balance-api.onrender.com/api/get-balance
+
+
+Folder structure
 
 ├── controllers        
 
