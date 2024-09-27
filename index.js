@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
-const tradeRoutes = require('./routes/TradeRoutes');
+const tradeRoutes = require('./routes/tradeRoutes');
 
 const app = express();
 app.use(express.json()); // Middleware to parse JSON body
